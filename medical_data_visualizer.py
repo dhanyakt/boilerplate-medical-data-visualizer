@@ -31,10 +31,10 @@ def draw_cat_plot():
 
 
     # 7
-    catplot = sns.catplot(data=df_cat,kind='bar',y='total',x='variable', hue='value', col='cardio')
+    sns.catplot(data=df_cat,kind='bar',y='total',x='variable', hue='value', col='cardio')
 
     # 8
-    fig = catplot.fig
+    fig = sns.catplot(data=df_cat,kind='bar',y='total',x='variable', hue='value', col='cardio').figure
 
     # 9
     fig.savefig('catplot.png')
