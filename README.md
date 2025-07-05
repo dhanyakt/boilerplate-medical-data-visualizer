@@ -31,8 +31,7 @@ Dataset used: [medical dataset given by FreeCodeCamp]
 ## 🔍 Key Findings
 
 - Found a correlation between cardio levels, alcohol, smoking, overweight, etc.
-  
-- [Add a few summary points here]
+
 
 ## 📁 Files Included
 
